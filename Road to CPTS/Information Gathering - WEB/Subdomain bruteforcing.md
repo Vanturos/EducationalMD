@@ -7,3 +7,9 @@
 | [assetfinder](https://github.com/tomnomnom/assetfinder) | Simple yet effective tool for finding subdomains using various techniques, ideal for quick and lightweight scans.               |
 | [puredns](https://github.com/d3mondev/puredns)          | Powerful and flexible DNS brute-forcing tool, capable of resolving and filtering results effectively.                           |
 
+> [!example]
+> ```dnsenum --enum inlanefreight.com -r -f /path/to/wordlist```
+
+> [!important] Zone Transfers
+> ```dig axfr @10.129.42.195 inlanefreight.htb``` 
+
